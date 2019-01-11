@@ -1,0 +1,43 @@
+# MADE BY:
+#  __    __                                          __        __  __  __                     
+# /  |  /  |                                        /  |      /  |/  |/  |                    
+# $$ |  $$ |  ______   _______    ______    ______  $$ |____  $$/ $$ |$$/   _______  __    __ 
+# $$  \/$$/  /      \ /       \  /      \  /      \ $$      \ /  |$$ |/  | /       |/  |  /  |
+#  $$  $$<  /$$$$$$  |$$$$$$$  |/$$$$$$  |/$$$$$$  |$$$$$$$  |$$ |$$ |$$ |/$$$$$$$/ $$ |  $$ |
+#   $$$$  \ $$    $$ |$$ |  $$ |$$ |  $$ |$$ |  $$ |$$ |  $$ |$$ |$$ |$$ |$$ |      $$ |  $$ |
+#  $$ /$$  |$$$$$$$$/ $$ |  $$ |$$ \__$$ |$$ |__$$ |$$ |  $$ |$$ |$$ |$$ |$$ \_____ $$ \__$$ |
+# $$ |  $$ |$$       |$$ |  $$ |$$    $$/ $$    $$/ $$ |  $$ |$$ |$$ |$$ |$$       |$$    $$ |
+# $$/   $$/  $$$$$$$/ $$/   $$/  $$$$$$/  $$$$$$$/  $$/   $$/ $$/ $$/ $$/  $$$$$$$/  $$$$$$$ |
+#                                         $$ |                                      /  \__$$ |
+#                                         $$ |                                      $$    $$/ 
+#                                         $$/                                        $$$$$$/
+
+# Here you can enter the interval at which the messages will display!
+# Example → Interval-Delay: 30 = 30 seconds
+Interval-Delay: 30
+
+# This is where you can change the prefix shown before each broadcast message!
+# You can use "&" or "§" to colorize the prefixes, as they have the same effect!
+Message-Prefix: "&e&l[Broadcast]&6 → &r"
+
+# Here you list the messages that should be randomly broadcasted!
+# You can use "&" or "§" here as well!
+
+# You are able to use the following tags:
+# -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-
+# Make a new line break → {break}
+# Get the total online players → {online}
+# Get the maximum online players → {max}
+# Get the motd → {motd}
+# Get the ticks per second → {tps}
+# Get the current API → {api}
+# -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-
+
+# Make sure there are at least two messages here; this will prevent unwanted errors!
+Messages:
+  - "&bThanks so much for joining the server!"
+  - "&aConsider voting for the server!"
+  - "&cThere are &6{online}/{max} &cplayers online!"
+  - "&eThis server is running &5API v{api}"
+  - "&l{motd}"
+  - "&eServer performance: &c{tps}tps"

@@ -1,0 +1,16 @@
+name: XenoBroadcaster
+version: 1.0.0
+main: Xenophilicy\XenoBroadcaster\XenoBroadcaster
+api: 3.0.0
+description: A simple plugin that can automatically broadcast messages in chat!
+author: Xenophilicy
+commands:
+  bcast:
+    permission: xenobcast.use
+    description: Broadcast a message to the server!
+  broadcast:
+    permission: xenobcast.use
+    description: Broadcast a message to the server!
+permissions:
+  xenobcast.use:
+    default: op
